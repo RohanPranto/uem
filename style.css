@@ -1,0 +1,503 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* Header */
+.headerdiv {
+  height: 100px;
+  background-color: #1C3879;
+  position: relative;
+}
+
+.collname {
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-left: 40px;
+  padding-top: 7px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.address {
+  color: white;
+  font-size: 0.9rem;
+  font-family: Poppins;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-top: 3px;
+}
+
+.ERP {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  font-size: 15px;
+  ;
+  font-family: Poppins;
+  color: #DFD3C3;
+  padding-top: 0;
+  font-weight: 400;
+}
+
+
+.edulink {
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  font-size: 15px;
+  ;
+  font-family: Poppins;
+  color: #EAE3D2;
+  padding-top: 0;
+  font-weight: 400;
+}
+
+.landpage-container {
+  padding-top: 20px;
+}
+
+.cont {
+  width: 730px;
+}
+
+.ac-erp {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 100px;
+}
+
+.texts {
+  margin-top: 30px;
+}
+
+.erp-para {
+  width: 550px;
+  font-size: 20px;
+  font-family: open-sans;
+  text-align: justify;
+  padding-right: 10px;
+}
+
+
+.login-page {
+  width: 360px;
+  padding: 30px 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.login-page .form h1 {
+  font-family: Poppins;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1C3879;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #4971ce;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  color: #1C3879;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+/* PROFILE */
+#mobile{
+  display: none;
+}
+.logout {
+  color: rgb(235, 34, 34);
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 120px;
+}
+
+.pro h6 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.pro p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #665766;
+}
+
+.off {
+  background-color: #EBF0FF;
+}
+
+.vertical {
+  border-left: 2px solid #A9A9A5;
+}
+
+.vertical span {
+  color: #1C3879;
+}
+
+.vertical p {
+  color: #665766;
+}
+
+.flexdiv {
+  display: flex;
+  gap: 2rem;
+}
+
+.flexdiv img {
+  width: 165px;
+  height: 200px;
+  aspect-ratio: 4/3;
+  display: block;
+}
+
+.update {
+  background-color: #1C3879;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 2px;
+  border: none;
+}
+
+.update:hover {
+  background-color: #2f37ca;
+  cursor: pointer;
+}
+
+.butn {
+  margin: 4.5px;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #1C3879;
+  font-size: 15px;
+  background: #ffffff;
+  width: 240px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1C3879 2px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  cursor: pointer;
+  color: white;
+  background: #10337d;
+  text-decoration: none;
+}
+
+/* clock */
+.clockdate-wrapper {
+  padding: 25px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+#clock {
+  font-size: 20px;
+  text-shadow: 0px 0px 1px #fff;
+  color: #10337d;
+}
+
+#clock span {
+  color: #10337d;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+}
+
+#date {
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: #10337d;
+}
+.details-div{
+  display: none;
+}
+hr{
+  display: none;
+}
+.clockdate-wrapper{
+  margin-top: 20px;
+  padding-bottom: 0;
+}
+/* fees */
+
+
+.textsfees {
+  font-size: 80%;
+  font-weight: bolder;
+  font-family: Open-Sans;
+  color: black;
+  padding: 10px;
+}
+
+.yourdata {
+  padding-top: 20px;
+  border-top: 0;
+}
+
+.infotable {
+  position: relative;
+  left: 515px;
+  top: -311px;
+  display: inline-block;
+  position: relative;
+}
+
+/* RESULT */
+.routineimg {
+  width: 60%;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+
+.resultid {
+  font-family: Poppins;
+}
+
+.result-table table,
+.result-table tr,
+.result-table td {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.datagiven {
+  font-size: 25px;
+  width: 500px
+}
+
+.dataasked {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* FEES */
+.fees table {
+  width: 100%;
+}
+
+/* feeback */
+label {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1080px) {
+  /* INDEX */
+
+  .collname {
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ERP,
+  .ac-erp {
+    display: none;
+  }
+
+  .address {
+    color: white;
+    font-family: Poppins;
+    font-weight: lighter;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-group {
+    padding: 12px;
+  }
+
+  .erp-para {
+    display: none;
+  }
+
+  .login-form-1 {
+    left: 0;
+    height: 500px;
+    text-align: center;
+  }
+
+  .texts {
+    margin-top: -10px;
+  }
+
+  .login-container {
+    text-align: center;
+    width: 90%;
+  }
+
+  /* PROFILE */
+  #desktop {
+    display: none;
+  }
+  #mobile{
+    display:inline;
+  }
+  .mob-flex{
+    display: flex;
+  }
+  .mob-flex img{
+    width: 90%;
+    border: .5px solid;
+  }
+  hr{
+    display: block;
+  }
+  .item2 h1{
+    font-size: 25px;
+  }
+  .item2 span{
+    font-weight: bold;
+    color: #10337d;
+  }
+.clockdate-wrapper{
+  margin-top: 0;
+  padding-bottom: 0;
+}
+  .details-div{
+    display: inline-block;
+  }
+  .details-div td{
+    font-size: 15px;
+  }
+  .dhru {
+    padding-left: 0;
+    filter: drop-shadow(4px 2px 5px);
+    height: 300px;
+    border-radius: 2%
+  }
+
+  .dropdown {
+    position: relative;
+    color: #607EAA;
+    display: inline;
+    left: 0px;
+    top: -210px;
+
+  }
+
+  /* result */
+  .dataasked,
+  .datagiven {
+    font-size: 10px;
+  }
+
+  .routineimg {
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 10px;
+  }
+
+  .result-table table,
+  .result-table tr,
+  .result-table td {
+    width: 100%;
+    border: 1px solid grey;
+  }
+
+  /* FEES */
+}
